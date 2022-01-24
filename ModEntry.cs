@@ -60,7 +60,7 @@ namespace FarawayIsles
             }
             else
             {
-                JsonAssets.LoadAssets(Path.Combine(Helper.DirectoryPath, "assets/[JA] Faraway Isles"));
+                JsonAssets.LoadAssets(Path.Combine(Helper.DirectoryPath, "[JA] Faraway Isles"));
             }
             //JsonAssets.LoadAssets(Path.Combine(this.Helper.DirectoryPath, "assets", "json-assets"), this.Helper.Translation);
             //JsonAssets.IdsFixed += this.OnIdsFixed;
