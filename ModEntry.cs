@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using log = DebugLogger.DebugLogger;
 using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
@@ -29,7 +30,7 @@ namespace FarawayIsles
         public override void Entry(IModHelper helper)
         {
             ModEntry.Instance = this;
-
+            log.DebugLog("");
             helper.Events.GameLoop.SaveLoaded += this.OnSaveLoaded;
             helper.Events.GameLoop.DayStarted += this.OnDayStarted;
         }
@@ -55,11 +56,11 @@ namespace FarawayIsles
             JsonAssets = this.Helper.ModRegistry.GetApi<IJsonAssetsApi>("spacechase0.JsonAssets");
             if (JsonAssets == null)
             {
-                Monitor.Log("Can't load Json Assets API, which is needed for test mod to function", LogLevel.Error);
+                log.DebugLog("Can't load Json Assets API, which is needed for test mod to function", LogLevel.Error);
             }
             else
             {
-                JsonAssets.LoadAssets(Path.Combine(Helper.DirectoryPath, "assets", "json-assets"));
+                JsonAssets.LoadAssets(Path.Combine(Helper.DirectoryPath, "assets/[JA] Faraway Isles"));
             }
             //JsonAssets.LoadAssets(Path.Combine(this.Helper.DirectoryPath, "assets", "json-assets"), this.Helper.Translation);
             //JsonAssets.IdsFixed += this.OnIdsFixed;
@@ -72,7 +73,7 @@ namespace FarawayIsles
 
         private void OnDayStarted(object sender, DayStartedEventArgs e)
         {
-            this.Monitor.Log("Mod has been loaded", LogLevel.Info);
+            log.DebugLog("Mod has been loaded");
         }
     }
 }
