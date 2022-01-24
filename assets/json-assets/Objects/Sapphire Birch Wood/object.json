@@ -1,0 +1,38 @@
+{
+    "Name": "Sapphire Birch Wood",
+    "Price": 35,
+    "CanSell": true,
+    "Description": "Bright pale wood. It gives off a soft cyan sheen under certain angles.",
+    "Category": "MonsterLoot",
+    "CategoryTextOverride": "Resource", //optional
+    "CategoryColorOverride":["96, 109, 223, 200"], //optional
+    "Edibility": -300, //-300 means inedible
+    "IsColored": false,
+    "GiftTastes":
+    {
+        "Love": ["Leah", "Emily"], 
+        "Like": ["Abigail", "Alex", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sandy", "Shane", "Willy", "Wizard"],
+        "Dislike": ["Caroline"],
+        "Hate": ["Jas", "Sam", "Sebastian", "Vincent"],
+    },
+    "NameLocalization":
+    {
+        "es": "Madera de abedul zafiro",
+        "fr": "Bois de bouleau de saphir",
+        "it": "Legno di betulla zaffiro",
+        "ja": "青玉樺の木材",
+        "ru": "Древесина сапфировой берёзы",
+        "ua": "Деревина сапфірової берези",
+        "ep": "Madeira de Bétula Safira",
+    },
+    "DescriptionLocalization":
+    {
+        "es": "Madera pálida y brillante. Brilla con un color azul pálido en un cierto ángulo.",
+        "fr": "Un bois clair et pâle. Il a un éclat doux cyan sous certains angles.",
+        "it": "Legno brillante pallido. Emana una lieve tonalità azzurra visto da certi angoli.",
+        "ja": "明るく、淡い木材。 これは特定の角度の下で優しい水色の光沢を放ちます。",
+        "ru": "Яркая, бледная древесина. Блестит нежно-голубым цветом под определённым углом.",
+        "ua": "Яскрава, бліда деревина. Блищить ніжно-блакитним кольором під певним кутом.",
+        "ep": "Um tipo de madeira de cor pálida. Um brilho suave de cor ciano é reflectido do material em certos ângulos.",
+    }
+}

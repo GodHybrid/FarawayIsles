@@ -1,0 +1,15 @@
+{
+  "Name": "Faraway Isles",
+  "Author": "GodHybrid",
+  "Version": "1.0.0",
+  "Description": "A complete rework and expansion of the skill systems. Find out about the secrets of this world after helping your town!",
+  "UniqueID": "godhybrid.farawayisles",
+  "EntryDll": "FarawayIsles.dll",
+  "MinimumApiVersion": "3.8.0",
+  "UpdateKeys": [ "Nexus:????" ],
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.JsonAssets"
+    }
+  ]
+}
