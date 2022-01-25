@@ -3,7 +3,6 @@
   "Description": "Bright pale wood. It gives off a soft cyan sheen under certain angles.",
   "Category": "MonsterLoot",
   "CategoryTextOverride": "Resource",
-  "CategoryColorOverride":["96, 109, 223, 200"],
   "Edibility": -300,
   "Price": 35,
   "CanSell": true,

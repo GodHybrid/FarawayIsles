@@ -32,6 +32,7 @@ namespace FarawayIsles
             ModEntry.Instance = this;
             log.DebugLog("");
             helper.Events.GameLoop.SaveLoaded += this.OnSaveLoaded;
+            helper.Events.GameLoop.GameLaunched += this.OnGameLaunched;
             helper.Events.GameLoop.DayStarted += this.OnDayStarted;
         }
 
@@ -60,7 +61,8 @@ namespace FarawayIsles
             }
             else
             {
-                JsonAssets.LoadAssets(Path.Combine(Helper.DirectoryPath, "[JA] Faraway Isles"));
+                log.DebugLog("Loading JSON assets...", LogLevel.Info);
+                JsonAssets.LoadAssets(Path.Combine(Helper.DirectoryPath, "assets", "[JA] Faraway Isles"));
             }
             //JsonAssets.LoadAssets(Path.Combine(this.Helper.DirectoryPath, "assets", "json-assets"), this.Helper.Translation);
             //JsonAssets.IdsFixed += this.OnIdsFixed;
