@@ -1,0 +1,20 @@
+﻿{
+  "Name": "Sapphire Birch",
+  "Product": 388,
+  "SaplingName": "Azure Sapling",
+  "SaplingDescription": "A sapling of a pale tree, its only leaf emanating a pleasant chill. Despite the small size, it's surprisingly heavy.",
+  "Season": "winter",
+  "SaplingPurchaseFrom": "Pierre",
+  "SaplingPurchasePrice": 250000,
+  "SaplingPurchaseRequirements": null, //[ "f Shuck 2000" ],
+  "NameLocalization": {
+    "ja": "青玉樺",
+    "ru": "Сапфировая берёза",
+    "ua": "Сапфірова береза"
+  },
+  "DescriptionLocalization": {
+    "ja": "その小さな大きさにもかかわらず、意外と重い.",
+    "ru": "Саженец бледного дерева, чей единственный листок источает приятный холод. Несмотря на малый размер, он довольно увесист.",
+    "ua": "Саджанець блідого дерева, чий єдиний листок випромінює приємний холод. Незважаючи на малий розмір, він досить важкий."
+  }
+}

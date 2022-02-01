@@ -8,4 +8,8 @@
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="assets\[C.O.N] Faraway Isles\assets\" />
+  </ItemGroup>
+
 </Project>

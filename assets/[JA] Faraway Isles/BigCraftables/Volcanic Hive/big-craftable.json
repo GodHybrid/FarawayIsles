@@ -1,0 +1,33 @@
+﻿{
+  "Name": "Volcanic Hive",
+  "Description": "A house for bees, that love hot environments. Produces honey, beeswax and a lot of other things, but only in summer.",
+  "Price": 1,
+  "ProvidesLight": true,
+  "ReserveNextIndex": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 388,
+        "Count": 25
+      },
+      {
+        "Object": 335,
+        "Count": 1
+      },
+      {
+        "Object": 82,
+        "Count": 1
+      }
+    ],
+    "CanPurchase": false
+  },
+  "NameLocalization": {
+    "ja": "火山蜂の巣",
+    "ru": "Вулканический улей"
+  },
+  "DescriptionLocalization": {
+    "ja": "暑い環境が大好きな蜜蜂の家。はちみつ、蜜蝋、その他たくさんのものを生産しますが、夏だけです。",
+    "ru": "Домик для пчёл, которые обожают жару. Производит мёд, воск и много чего ещё, но только летом."
+  }
+}

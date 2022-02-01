@@ -1,0 +1,33 @@
+﻿{
+  "Name": "Essence Aggregator",
+  "Description": "A peculiar machine, both natural and man-made. Extracts essences of various products, giving back only what's truly important.",
+  "Price": 1,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  "Recipe": {
+    "ResultCount": 1,
+    "Ingredients": [
+      {
+        "Object": 388,
+        "Count": 25
+      },
+      {
+        "Object": 335,
+        "Count": 1
+      },
+      {
+        "Object": 82,
+        "Count": 1
+      }
+    ],
+    "CanPurchase": false
+  },
+  "NameLocalization": {
+    "ja": "精髄たちの抽出器",
+    "ru": "Агрегатор эссенций",
+  },
+  "DescriptionLocalization": {
+    "ja": "神秘的な機械、自然と人工の両方。さまざまなものから精髄を引き出します、本当に重要なものだけを返します。",
+    "ru": "Загадочная машина, одновременно и природная, и рукотворная. Вытягивает эссенцию из разнообразных предметов, возвращая лишь то, что поистине важно."
+  }
+}

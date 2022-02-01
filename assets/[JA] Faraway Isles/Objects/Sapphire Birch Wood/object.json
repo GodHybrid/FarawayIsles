@@ -3,7 +3,7 @@
   "Description": "Bright pale wood. It gives off a soft cyan sheen under certain angles.",
   "Category": "MonsterLoot",
   "CategoryTextOverride": "Resource",
-  "Edibility": -300,
+  "Edibility": -304,
   "Price": 35,
   "CanSell": true,
   "IsColored": false,
@@ -21,7 +21,8 @@
     "ja": "青玉樺の木材",
     "ru": "Древесина сапфировой берёзы",
     "ua": "Деревина сапфірової берези",
-    "ep": "Madeira de Bétula Safira"
+    "ep": "Madeira de Bétula Safira",
+    "ko": "사파이어 자작나무 목재"
   },
   "DescriptionLocalization": {
     "es": "Madera pálida y brillante. Brilla con un color azul pálido en un cierto ángulo.",
@@ -30,6 +31,7 @@
     "ja": "明るく、淡い木材。 これは特定の角度の下で優しい水色の光沢を放ちます。",
     "ru": "Яркая, бледная древесина. Блестит нежно-голубым цветом под определённым углом.",
     "ua": "Яскрава, бліда деревина. Блищить ніжно-блакитним кольором під певним кутом.",
-    "ep": "Um tipo de madeira de cor pálida. Um brilho suave de cor ciano é reflectido do material em certos ângulos."
+    "ep": "Um tipo de madeira de cor pálida. Um brilho suave de cor ciano é reflectido do material em certos ângulos.",
+    "ko": "밝고 창백한 목재. 특정 각도에서 부드러운 하늘빛 광택이 난다."
   }
 }
